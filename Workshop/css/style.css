@@ -1,0 +1,124 @@
+.banner{
+    background: url(../imagens/banner-bg-iza.jpeg) center no-repeat;
+    height: 90vh;
+    text-align: center;
+    padding-top: 10rem;
+    background-size: cover;
+}
+
+.banner-titulo{
+    font-size: 5rem;
+    width: 100%;
+    color:rgb(250, 249, 249)
+}
+
+.banner-subtitulo{
+    font-size: 2.3rem;
+    color:rgb(252, 250, 250);
+}
+
+
+.btn{
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size:1.5rem;
+    font-weight: bold;
+}
+
+.btn-branco{
+    color:#7E459B;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sobre-titulo{
+    font-size: 4rem;
+    color:#313131;
+}
+
+.sobre-descricao,
+.sobre-habilidades {
+    width: 40%;
+    display: inline-block;
+    list-style: 1.5;
+}
+
+.sobre-descricao-destaque,
+.sobre-descricao-texto,
+.sobre-habilidades-titulo {
+    font-size: 2rem;
+}
+
+.u-margin-bottom-peq {
+    margin-bottom: 2rem;
+}
+
+.btn-roxo {
+    color: #7E459B;
+    border: 1px solid #7E459B;
+}
+
+.sobre-habilidades-lista {
+    padding-left: 2rem;
+    line-height: 2;
+    font-size: 1.6rem;
+}
+
+.sobre-padding-left {
+    padding-left: 10rem;
+    position: absolute;
+    top: 103%;
+}
+
+html {
+    font-size: 10px;
+    /* faz o reset do rem */
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.container {
+    max-width: 540px;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.sobre-padding-left {
+    padding-left: 10rem;
+}
+
+.footer {
+    text-align: center;
+}
+
+/* .redes-sociais{
+
+} */
+
+.redes-sociais-link {
+    display: inline-block;
+    width: 200px;
+    background-color: #7E459B;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer-display {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobre-habilidades{
+    padding-left: 10rem;
